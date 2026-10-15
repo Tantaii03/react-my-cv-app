@@ -10,9 +10,7 @@ import reactLogo from "../assets/react.png";
 import spring from "../assets/spring.png";
 import figma from "../assets/figma.png";
 import firebase from "../assets/Firebase.png";
-
-
- import profile from "../assets/profile.png";
+import profile from "../assets/Profile.png";
 
 export default function Home() {
   return (
