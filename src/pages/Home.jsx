@@ -1,7 +1,7 @@
 import NavBar from "../components/Navbar";
 import { FaLinkedinIn, FaGithub, FaJava } from "react-icons/fa";
 
-// รูปไอคอน Tech Stacks จาก src/assets/
+
 import html5 from "../assets/html5.png";
 import css3 from "../assets/css3.png";
 import js from "../assets/js.png";
@@ -36,14 +36,14 @@ export default function Home() {
             <a href="#" target="_blank" rel="noreferrer" className="flex items-center justify-center w-11 h-11 rounded-full bg-white">
               <FaLinkedinIn className="text-black text-2xl" />
             </a>
-            {/* TODO: ใส่ลิงก์ GitHub ของคุณที่ href */}
+            
             <a href="#" target="_blank" rel="noreferrer" className="flex items-center justify-center w-11 h-11 rounded-full bg-white">
               <FaGithub className="text-black text-2xl" />
             </a>
           </div>
         </div>
 
-        {/* รูปด้านขวา */}
+        
         <div className="w-[450px] h-[450px] rounded-full overflow-hidden bg-neutral-800">
           {
           <img
@@ -67,8 +67,7 @@ export default function Home() {
           <img src={nodejs} alt="Node.js" className="h-12 w-auto" />
           <img src={reactLogo} alt="React" className="h-12 w-auto" />
           <img src={spring} alt="Spring Boot" className="h-12 w-auto" />
-          {/* ยังไม่มีไฟล์ Java ใน assets เลยใช้ไอคอนจาก react-icons ไปก่อน
-              ถ้าได้ไฟล์แล้ว: import java from "../assets/java.png"; แล้วใช้ <img src={java} ... /> แทน */}
+          
           <FaJava className="text-[#E76F00] text-5xl" />
           <img src={figma} alt="Figma" className="h-12 w-auto" />
           <img src={firebase} alt="Firebase" className="h-12 w-auto" />
